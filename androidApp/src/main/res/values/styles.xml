@@ -1,0 +1,13 @@
+<resources>
+    <style name="sign_in_with_password">
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">@font/helvetica_bold</item>
+    </style>
+
+    <style name="text_Field_Email">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/textField</item>
+    </style>
+</resources>
