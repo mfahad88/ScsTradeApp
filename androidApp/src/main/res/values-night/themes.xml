@@ -27,5 +27,5 @@
 
     </style>
 
-    <style name="Theme.ScsTradeApp" parent="Base.Theme.ScsTradeApp" />
+    <style name="Theme.ScsTradeApp" parent="Base.Theme.ScsTradeApp"/>
 </resources>

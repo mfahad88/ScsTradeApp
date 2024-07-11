@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.kotlinAndroid)
 //    alias(libs.plugins.compose.compiler)
     kotlin("kapt")
+    id("com.google.dagger.hilt.android")
+
 //    id("com.google.dagger.hilt.android") version "2.48" apply false
 //   id("dagger.hilt.android.plugin:2.4.1")
 
@@ -49,9 +51,20 @@ dependencies {
     implementation (libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
-  /*  implementation(libs.compose.ui)
-    implementation(libs.compose.ui.tooling.preview)
-    implementation(libs.compose.material3)
-    implementation(libs.androidx.activity.compose)
-    debugImplementation(libs.compose.ui.tooling)*/
+    implementation (libs.facebook.login)
+    // Kotlin
+    implementation (libs.androidx.navigation.fragment.ktx)
+    implementation (libs.navigation.ui.ktx)
+
+    // Feature module Support
+    implementation (libs.navigation.dynamic.features.fragment)
+    implementation (libs.glide)
+    kapt ("com.github.bumptech.glide:compiler:4.12.0")
+
+
+    /*  implementation(libs.compose.ui)
+      implementation(libs.compose.ui.tooling.preview)
+      implementation(libs.compose.material3)
+      implementation(libs.androidx.activity.compose)
+      debugImplementation(libs.compose.ui.tooling)*/
 }

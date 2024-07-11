@@ -4,4 +4,5 @@
         <attr name="android:textAppearance" format="reference"/>
         <attr name="android:inputType" format="reference"/>
     </declare-styleable>
+    <attr name="state_error" format="boolean"/>
 </resources>

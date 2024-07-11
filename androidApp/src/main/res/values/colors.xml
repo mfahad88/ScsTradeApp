@@ -14,4 +14,11 @@
     <color name="on_background">#000000</color>
     <color name="on_surface">#000000</color>
     <color name="textField">#333333</color>
+    <color name="disabled">#D3D3D3</color>
+    <color name="black">#000000</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="alice_blue">#F3F8FF</color>
+    <color name="lavender_blush">#FFECEF</color>
+    <color name="mauvelous">#f4a6ad</color>
+    <color name="dot_color">#71E3BB</color>
 </resources>

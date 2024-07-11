@@ -1,13 +1,56 @@
 <resources>
     <style name="sign_in_with_password">
-        <item name="android:textSize">28sp</item>
+        <item name="android:textSize">@dimen/_28sp</item>
         <item name="android:letterSpacing">0.2</item>
         <item name="android:fontFamily">@font/helvetica_bold</item>
     </style>
 
     <style name="text_Field_Email">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">@dimen/_18sp</item>
         <item name="android:fontFamily">@font/helvetica</item>
         <item name="android:textColor">@color/textField</item>
     </style>
+
+    <style name="reset_password">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="or_continue_with">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="don_t_have_an_account">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="sign_up">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/primary_variant</item>
+    </style>
+
+    <style name="forgot_your_password">
+        <item name="android:textSize">@dimen/_28sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">@font/helvetica_bold</item>
+    </style>
+
+    <style name="no_worries_you_need_to_type_your_email">
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_submit">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+    </style>
+
+
 </resources>
