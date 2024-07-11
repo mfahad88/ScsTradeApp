@@ -13,10 +13,10 @@ import android.view.animation.Transformation;
 public class CricleProgressBarCustom extends View {
 
     //Normal dot radius
-    private int dotRadius = 10;
+    private int dotRadius = 30;
 
     //Expanded Dot Radius
-    private int bounceDotRadius = 13;
+    private int bounceDotRadius = 39;
 
     //to get identified in which position dot has to expand its radius
     private int dotPosition = 1;
@@ -25,7 +25,7 @@ public class CricleProgressBarCustom extends View {
     private int dotAmount = 10;
 
     //specify the circle radius
-    private int circleRadius = 50;
+    private int circleRadius = 120;
 
 
     public CricleProgressBarCustom(Context context) {
@@ -93,8 +93,8 @@ public class CricleProgressBarCustom extends View {
         int height = 0;
 
         //Dynamically setting width and height to progressbar 100 is circle radius, dotRadius * 3 to cover the width and height of Progressbar
-        width = 100 + (dotRadius*3);
-        height = 100 + (dotRadius*3);
+        width = circleRadius * 2 + (dotRadius*3);
+        height = circleRadius * 2 + (dotRadius*3);
 
         //MUST CALL THIS
         setMeasuredDimension(width, height);
